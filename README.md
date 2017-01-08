@@ -88,7 +88,7 @@ access to the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) data
 pip install kerosene
 ```
 
-Kerosene depends on the [fuel](https://github.com/mila-udem/fuel) library, which will be installed automatically if needed.
+Kerosene depends on the [fuel](https://github.com/mila-udem/fuel) library, which will be installed automatically if needed. You will need to configure fuel's data path before you can use Kerosense. Please see fuel's [documenation](https://fuel.readthedocs.io/en/latest/built_in_datasets.html#environment-variable) for configuration options.
 
 Sometimes sudo is necessary for the pip command.
 
